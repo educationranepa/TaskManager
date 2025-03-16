@@ -1,6 +1,7 @@
 import unittest
 
 class Task:
+    """Задача"""
     def __init__(self, title, description):
         if not title:
             raise ValueError("Title cannot be empty")
