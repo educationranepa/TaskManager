@@ -27,4 +27,4 @@ jobs:
           pip install -r requirements.txt || true  # Если нет requirements.txt, продолжит работу
 
       - name: Run tests
-        run: python -m unittest discover -v
+        run: python -m unittest -v taskManager.py
